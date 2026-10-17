@@ -80,7 +80,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#7-autenticacion-y-seguridad" class="md-skip">
+        <a href="#7-autenticacion-y-seguridad-con-github" class="md-skip">
           Saltar a contenido
         </a>
       
@@ -513,10 +513,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#objetivos-de-aprendizaje" class="md-nav__link">
+  <a href="#71-identidad-de-autor-y-autenticacion-son-cosas-distintas" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Objetivos de aprendizaje
+        7.1. Identidad de autor y autenticación son cosas distintas
       
     </span>
   </a>
@@ -524,10 +524,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#contenidos-previstos" class="md-nav__link">
+  <a href="#72-https-y-gestores-de-credenciales" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Contenidos previstos
+        7.2. HTTPS y gestores de credenciales
       
     </span>
   </a>
@@ -535,10 +535,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#practica-inicial" class="md-nav__link">
+  <a href="#73-tokens-de-acceso-personal-pat" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Práctica inicial
+        7.3. Tokens de acceso personal (PAT)
       
     </span>
   </a>
@@ -546,10 +546,43 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#comprobacion-del-aprendizaje" class="md-nav__link">
+  <a href="#74-autenticacion-mediante-ssh" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Comprobación del aprendizaje
+        7.4. Autenticación mediante SSH
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#75-permisos-y-seguridad-en-equipos-compartidos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.5. Permisos y seguridad en equipos compartidos
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#76-errores-habituales" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.6. Errores habituales
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#actividades" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Actividades
       
     </span>
   </a>
@@ -888,10 +921,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#objetivos-de-aprendizaje" class="md-nav__link">
+  <a href="#71-identidad-de-autor-y-autenticacion-son-cosas-distintas" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Objetivos de aprendizaje
+        7.1. Identidad de autor y autenticación son cosas distintas
       
     </span>
   </a>
@@ -899,10 +932,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#contenidos-previstos" class="md-nav__link">
+  <a href="#72-https-y-gestores-de-credenciales" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Contenidos previstos
+        7.2. HTTPS y gestores de credenciales
       
     </span>
   </a>
@@ -910,10 +943,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#practica-inicial" class="md-nav__link">
+  <a href="#73-tokens-de-acceso-personal-pat" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Práctica inicial
+        7.3. Tokens de acceso personal (PAT)
       
     </span>
   </a>
@@ -921,10 +954,43 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#comprobacion-del-aprendizaje" class="md-nav__link">
+  <a href="#74-autenticacion-mediante-ssh" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Comprobación del aprendizaje
+        7.4. Autenticación mediante SSH
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#75-permisos-y-seguridad-en-equipos-compartidos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.5. Permisos y seguridad en equipos compartidos
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#76-errores-habituales" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.6. Errores habituales
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#actividades" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Actividades
       
     </span>
   </a>
@@ -951,23 +1017,85 @@
   
 
 
-<h1 id="7-autenticacion-y-seguridad">7. Autenticación y seguridad<a class="headerlink" href="#7-autenticacion-y-seguridad" title="Permanent link">&para;</a></h1>
-<div class="admonition note">
-<p class="admonition-title">Capítulo en desarrollo</p>
-<p>Este archivo contiene el esquema didáctico inicial. Se ampliará con explicaciones detalladas, ejemplos de terminal, capturas, actividades y soluciones.</p>
+<h1 id="7-autenticacion-y-seguridad-con-github">7. Autenticación y seguridad con GitHub<a class="headerlink" href="#7-autenticacion-y-seguridad-con-github" title="Permanent link">&para;</a></h1>
+<h2 id="71-identidad-de-autor-y-autenticacion-son-cosas-distintas">7.1. Identidad de autor y autenticación son cosas distintas<a class="headerlink" href="#71-identidad-de-autor-y-autenticacion-son-cosas-distintas" title="Permanent link">&para;</a></h2>
+<p><code>user.name</code> y <code>user.email</code> identifican el autor de un commit; <strong>no conceden acceso a GitHub</strong>. Para leer repositorios públicos normalmente no necesitas autenticarte; para publicar cambios en repositorios protegidos debes demostrar tu identidad y tener permisos.</p>
+<h2 id="72-https-y-gestores-de-credenciales">7.2. HTTPS y gestores de credenciales<a class="headerlink" href="#72-https-y-gestores-de-credenciales" title="Permanent link">&para;</a></h2>
+<p>La URL HTTPS de un remoto tiene este formato:</p>
+<div class="highlight"><pre><span></span><code>https://github.com/USUARIO/REPOSITORIO.git
+</code></pre></div>
+<p>En Windows, Git suele integrarse con <strong>Git Credential Manager</strong> para abrir un proceso de autenticación en el navegador y guardar credenciales de forma segura. Comprueba qué ayudante tienes configurado:</p>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>config<span class="w"> </span>--show-origin<span class="w"> </span>--get<span class="w"> </span>credential.helper
+</code></pre></div>
+<p>No introduzcas la contraseña de tu cuenta como si fuera la contraseña del repositorio: GitHub no admite contraseñas de cuenta para autenticar operaciones Git por HTTPS. El método disponible depende de la configuración del equipo y la cuenta.</p>
+<h2 id="73-tokens-de-acceso-personal-pat">7.3. Tokens de acceso personal (PAT)<a class="headerlink" href="#73-tokens-de-acceso-personal-pat" title="Permanent link">&para;</a></h2>
+<p>Un token es una credencial con permisos específicos. Si tu flujo requiere uno, créalo desde la configuración de GitHub y concede <strong>solo los permisos y el alcance necesarios</strong>. Establece caducidad cuando corresponda y revócalo si sospechas exposición.</p>
+<div class="admonition danger">
+<p class="admonition-title">Nunca publiques credenciales</p>
+<p>No escribas tokens en archivos <code>.java</code>, <code>.env</code> versionados, capturas de pantalla, mensajes de foro ni comandos que puedan quedar guardados en el historial de terminal. No incluyas tokens en la URL remota.</p>
 </div>
-<h2 id="objetivos-de-aprendizaje">Objetivos de aprendizaje<a class="headerlink" href="#objetivos-de-aprendizaje" title="Permanent link">&para;</a></h2>
-<p>Al finalizar este capítulo, el alumnado deberá comprender y aplicar los conceptos y procedimientos indicados a continuación.</p>
-<h2 id="contenidos-previstos">Contenidos previstos<a class="headerlink" href="#contenidos-previstos" title="Permanent link">&para;</a></h2>
-<p>Autenticación HTTPS; gestores de credenciales; tokens personales; SSH; claves públicas y privadas; no publicar secretos; permisos y revocación.</p>
-<h2 id="practica-inicial">Práctica inicial<a class="headerlink" href="#practica-inicial" title="Permanent link">&para;</a></h2>
-<p>Identifica qué archivos o datos de autenticación nunca deben subirse a un repositorio.</p>
-<h2 id="comprobacion-del-aprendizaje">Comprobación del aprendizaje<a class="headerlink" href="#comprobacion-del-aprendizaje" title="Permanent link">&para;</a></h2>
-<ul>
-<li>Explica qué has hecho y por qué.</li>
-<li>Conserva las evidencias relevantes de los comandos utilizados.</li>
-<li>Anota cualquier error encontrado y cómo lo has resuelto.</li>
-</ul>
+<h2 id="74-autenticacion-mediante-ssh">7.4. Autenticación mediante SSH<a class="headerlink" href="#74-autenticacion-mediante-ssh" title="Permanent link">&para;</a></h2>
+<p>SSH utiliza un par de claves: <strong>privada</strong>, que permanece en tu equipo, y <strong>pública</strong>, que registras en GitHub.</p>
+<div class="highlight"><pre><span></span><code>ssh-keygen<span class="w"> </span>-t<span class="w"> </span>ed25519<span class="w"> </span>-C<span class="w"> </span><span class="s2">"correo@example.com"</span>
+</code></pre></div>
+<p>Sigue las indicaciones de la terminal y protege la clave privada con una frase de paso. La ruta habitual es <code>~/.ssh/id_ed25519</code> (en Windows se encuentra bajo el directorio personal). Para mostrar la <strong>clave pública</strong>:</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">PowerShell</label><label for="__tabbed_1_2">Bash</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code><span class="nb">Get-Content</span> <span class="s2">"$HOME/.ssh/id_ed25519.pub"</span>
+</code></pre></div>
+</div>
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code>cat<span class="w"> </span>~/.ssh/id_ed25519.pub
+</code></pre></div>
+</div>
+</div>
+</div>
+<p>Añade ese contenido en GitHub, en <strong>Settings → SSH and GPG keys</strong>. Nunca copies el archivo sin extensión <code>.pub</code> a un servicio web: es la clave privada.</p>
+<p>Comprueba la conexión:</p>
+<div class="highlight"><pre><span></span><code>ssh<span class="w"> </span>-T<span class="w"> </span>git@github.com
+</code></pre></div>
+<p>Es normal que GitHub indique que no proporciona acceso a una shell. Para usar SSH en un repositorio:</p>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>remote<span class="w"> </span>set-url<span class="w"> </span>origin<span class="w"> </span>git@github.com:USUARIO/REPOSITORIO.git
+</code></pre></div>
+<h2 id="75-permisos-y-seguridad-en-equipos-compartidos">7.5. Permisos y seguridad en equipos compartidos<a class="headerlink" href="#75-permisos-y-seguridad-en-equipos-compartidos" title="Permanent link">&para;</a></h2>
+<p>En ordenadores de aula, evita guardar credenciales de forma persistente si no controlas el perfil de usuario. Cierra las sesiones al terminar y revisa qué cuentas están conectadas en el navegador y VS Code. No compartas una cuenta de GitHub entre varios estudiantes.</p>
+<h2 id="76-errores-habituales">7.6. Errores habituales<a class="headerlink" href="#76-errores-habituales" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Mensaje</th>
+<th>Qué revisar</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Authentication failed</code></td>
+<td>Método de autenticación y credenciales guardadas</td>
+</tr>
+<tr>
+<td><code>Permission denied (publickey)</code></td>
+<td>Clave SSH, agente, cuenta y URL remota</td>
+</tr>
+<tr>
+<td><code>Repository not found</code></td>
+<td>URL, visibilidad y permisos de la cuenta</td>
+</tr>
+<tr>
+<td><code>403</code></td>
+<td>Permisos insuficientes, restricciones de organización o credencial incorrecta</td>
+</tr>
+</tbody>
+</table>
+<h2 id="actividades">Actividades<a class="headerlink" href="#actividades" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Explica por qué configurar <code>user.email</code> no significa haber iniciado sesión en GitHub.</li>
+<li>Compara HTTPS y SSH: ventajas, inconvenientes y uso en equipos compartidos.</li>
+<li>Localiza en la documentación oficial cómo revocar un token comprometido.</li>
+<li>Comprueba la URL de tu remoto con <code>git remote -v</code> sin mostrar credenciales.</li>
+</ol>
+<p><strong>Documentación:</strong> <a href="https://docs.github.com/es/authentication">Autenticación de GitHub</a> · <a href="https://docs.github.com/es/authentication/connecting-to-github-with-ssh">Conexión mediante SSH</a>.</p>
+<p><strong>Siguiente:</strong> <a href="../08-ramas/">Ramas</a>.</p>
 
 
 

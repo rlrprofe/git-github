@@ -459,10 +459,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#objetivos-de-aprendizaje" class="md-nav__link">
+  <a href="#51-leer-el-historial" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Objetivos de aprendizaje
+        5.1. Leer el historial
       
     </span>
   </a>
@@ -470,10 +470,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#contenidos-previstos" class="md-nav__link">
+  <a href="#52-comparar-versiones-con-git-diff" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Contenidos previstos
+        5.2. Comparar versiones con git diff
       
     </span>
   </a>
@@ -481,10 +481,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#practica-inicial" class="md-nav__link">
+  <a href="#53-consultar-un-commit" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Práctica inicial
+        5.3. Consultar un commit
       
     </span>
   </a>
@@ -492,10 +492,43 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#comprobacion-del-aprendizaje" class="md-nav__link">
+  <a href="#54-historial-de-un-archivo-y-autoria-de-lineas" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Comprobación del aprendizaje
+        5.4. Historial de un archivo y autoría de líneas
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#55-escribir-mensajes-de-commit-utiles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.5. Escribir mensajes de commit útiles
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#56-corregir-el-ultimo-commit-con-amend" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.6. Corregir el último commit con --amend
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#57-ejercicio-guiado" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.7. Ejercicio guiado
       
     </span>
   </a>
@@ -888,10 +921,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#objetivos-de-aprendizaje" class="md-nav__link">
+  <a href="#51-leer-el-historial" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Objetivos de aprendizaje
+        5.1. Leer el historial
       
     </span>
   </a>
@@ -899,10 +932,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#contenidos-previstos" class="md-nav__link">
+  <a href="#52-comparar-versiones-con-git-diff" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Contenidos previstos
+        5.2. Comparar versiones con git diff
       
     </span>
   </a>
@@ -910,10 +943,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#practica-inicial" class="md-nav__link">
+  <a href="#53-consultar-un-commit" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Práctica inicial
+        5.3. Consultar un commit
       
     </span>
   </a>
@@ -921,10 +954,43 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#comprobacion-del-aprendizaje" class="md-nav__link">
+  <a href="#54-historial-de-un-archivo-y-autoria-de-lineas" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Comprobación del aprendizaje
+        5.4. Historial de un archivo y autoría de líneas
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#55-escribir-mensajes-de-commit-utiles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.5. Escribir mensajes de commit útiles
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#56-corregir-el-ultimo-commit-con-amend" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.6. Corregir el último commit con --amend
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#57-ejercicio-guiado" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.7. Ejercicio guiado
       
     </span>
   </a>
@@ -952,22 +1018,62 @@
 
 
 <h1 id="5-seguimiento-de-cambios-e-historial">5. Seguimiento de cambios e historial<a class="headerlink" href="#5-seguimiento-de-cambios-e-historial" title="Permanent link">&para;</a></h1>
-<div class="admonition note">
-<p class="admonition-title">Capítulo en desarrollo</p>
-<p>Este archivo contiene el esquema didáctico inicial. Se ampliará con explicaciones detalladas, ejemplos de terminal, capturas, actividades y soluciones.</p>
+<h2 id="51-leer-el-historial">5.1. Leer el historial<a class="headerlink" href="#51-leer-el-historial" title="Permanent link">&para;</a></h2>
+<p>Un historial útil permite responder: <strong>qué cambió, cuándo, quién lo hizo y por qué</strong>. El mensaje del commit debe aportar el motivo o propósito; Git registra además autor y fechas.</p>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>log
+git<span class="w"> </span>log<span class="w"> </span>--oneline
+git<span class="w"> </span>log<span class="w"> </span>--oneline<span class="w"> </span>--graph<span class="w"> </span>--decorate<span class="w"> </span>--all
+git<span class="w"> </span>log<span class="w"> </span>-5
+</code></pre></div>
+<p><code>--graph</code> dibuja la estructura de los commits, <code>--decorate</code> muestra referencias de ramas y <code>-5</code> limita el resultado a cinco entradas. Pulsa <code>q</code> para salir del paginador cuando aparezca.</p>
+<h2 id="52-comparar-versiones-con-git-diff">5.2. Comparar versiones con <code>git diff</code><a class="headerlink" href="#52-comparar-versiones-con-git-diff" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>diff<span class="w">                 </span><span class="c1"># cambios en el directorio de trabajo no preparados</span>
+git<span class="w"> </span>diff<span class="w"> </span>--staged<span class="w">        </span><span class="c1"># cambios preparados para el próximo commit</span>
+git<span class="w"> </span>diff<span class="w"> </span>HEAD<span class="w">            </span><span class="c1"># cambios del directorio y staging frente a HEAD</span>
+git<span class="w"> </span>diff<span class="w"> </span>HEAD~1<span class="w"> </span>HEAD<span class="w">     </span><span class="c1"># diferencia entre los dos últimos commits</span>
+</code></pre></div>
+<p>Los signos <code>+</code> y <code>-</code> representan líneas añadidas y eliminadas. El formato <em>unified diff</em> incluye contexto para comprender dónde se modificó el archivo. <code>HEAD~1</code> significa el primer antecesor de <code>HEAD</code>; requiere al menos dos commits.</p>
+<h2 id="53-consultar-un-commit">5.3. Consultar un commit<a class="headerlink" href="#53-consultar-un-commit" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>show<span class="w"> </span>HEAD
+git<span class="w"> </span>show<span class="w"> </span>--stat<span class="w"> </span>HEAD
+git<span class="w"> </span>show<span class="w"> </span>--name-only<span class="w"> </span>HEAD
+</code></pre></div>
+<p><code>--stat</code> resume los archivos y el número de líneas cambiadas; <code>--name-only</code> muestra nombres. Para inspeccionar una versión antigua de un archivo <strong>sin modificar el directorio de trabajo</strong>:</p>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>show<span class="w"> </span>HEAD~1:HolaGit.java
+</code></pre></div>
+<p>La sintaxis <code>REVISION:ruta</code> recupera el contenido del archivo tal como existía en esa revisión.</p>
+<h2 id="54-historial-de-un-archivo-y-autoria-de-lineas">5.4. Historial de un archivo y autoría de líneas<a class="headerlink" href="#54-historial-de-un-archivo-y-autoria-de-lineas" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>log<span class="w"> </span>--oneline<span class="w"> </span>--<span class="w"> </span>HolaGit.java
+git<span class="w"> </span>log<span class="w"> </span>-p<span class="w"> </span>--<span class="w"> </span>HolaGit.java
+git<span class="w"> </span>blame<span class="w"> </span>HolaGit.java
+</code></pre></div>
+<p><code>--</code> separa las opciones de las rutas; <code>-p</code> incluye los parches. <code>blame</code> muestra el último commit que modificó cada línea, pero <strong>no determina quién es responsable de un problema</strong>: puede faltar contexto de cambios anteriores.</p>
+<h2 id="55-escribir-mensajes-de-commit-utiles">5.5. Escribir mensajes de commit útiles<a class="headerlink" href="#55-escribir-mensajes-de-commit-utiles" title="Permanent link">&para;</a></h2>
+<p>Evita mensajes como <code>cambios</code>, <code>arreglo</code> o <code>final</code>. Prefiere descripciones específicas:</p>
+<div class="highlight"><pre><span></span><code>Añadir validación de precio en Producto
+Corregir cierre de conexión JDBC
+Documentar instrucciones de ejecución
+</code></pre></div>
+<p>Un commit debería agrupar cambios relacionados. Si mezclas una corrección, un cambio visual y una actualización de dependencias, después será más difícil revisar o revertir el trabajo.</p>
+<h2 id="56-corregir-el-ultimo-commit-con-amend">5.6. Corregir el último commit con <code>--amend</code><a class="headerlink" href="#56-corregir-el-ultimo-commit-con-amend" title="Permanent link">&para;</a></h2>
+<p>Si acabas de crear un commit local y olvidaste un archivo:</p>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>add<span class="w"> </span>README.md
+git<span class="w"> </span>commit<span class="w"> </span>--amend<span class="w"> </span>--no-edit
+</code></pre></div>
+<p>O cambia su mensaje:</p>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>commit<span class="w"> </span>--amend<span class="w"> </span>-m<span class="w"> </span><span class="s2">"Documentar instalación del proyecto"</span>
+</code></pre></div>
+<div class="admonition danger">
+<p class="admonition-title">Un commit enmendado cambia de identidad</p>
+<p><code>--amend</code> crea un commit nuevo que sustituye al anterior en tu rama. Evítalo si el commit ya está compartido: reescribir historial publicado puede complicar el trabajo de otras personas.</p>
 </div>
-<h2 id="objetivos-de-aprendizaje">Objetivos de aprendizaje<a class="headerlink" href="#objetivos-de-aprendizaje" title="Permanent link">&para;</a></h2>
-<p>Al finalizar este capítulo, el alumnado deberá comprender y aplicar los conceptos y procedimientos indicados a continuación.</p>
-<h2 id="contenidos-previstos">Contenidos previstos<a class="headerlink" href="#contenidos-previstos" title="Permanent link">&para;</a></h2>
-<p>Diferencia entre cambios sin preparar y preparados; <code>git diff</code>; <code>git diff --staged</code>; <code>git show</code>; <code>git log --oneline</code>; mensajes de commit; <code>git commit --amend</code>.</p>
-<h2 id="practica-inicial">Práctica inicial<a class="headerlink" href="#practica-inicial" title="Permanent link">&para;</a></h2>
-<p>Modifica dos archivos, prepara solo uno y comprueba qué diferencias registra Git.</p>
-<h2 id="comprobacion-del-aprendizaje">Comprobación del aprendizaje<a class="headerlink" href="#comprobacion-del-aprendizaje" title="Permanent link">&para;</a></h2>
-<ul>
-<li>Explica qué has hecho y por qué.</li>
-<li>Conserva las evidencias relevantes de los comandos utilizados.</li>
-<li>Anota cualquier error encontrado y cómo lo has resuelto.</li>
-</ul>
+<h2 id="57-ejercicio-guiado">5.7. Ejercicio guiado<a class="headerlink" href="#57-ejercicio-guiado" title="Permanent link">&para;</a></h2>
+<p>En tu repositorio <code>HolaGit</code>: crea un commit para el README, otro para un cambio de código y otro para documentación. Ejecuta <code>git log --oneline</code>, <code>git show --stat HEAD</code> y <code>git diff HEAD~2 HEAD</code>. Explica qué información aporta cada comando.</p>
+<details class="success">
+<summary>Respuesta orientativa</summary>
+<p><code>log</code> enumera versiones; <code>show --stat</code> resume el último commit; <code>diff HEAD~2 HEAD</code> compara el estado actual con el de dos commits antes. La comparación es entre instantáneas, no una lista de instrucciones ejecutadas.</p>
+</details>
+<p><strong>Siguiente:</strong> <a href="../06-remotos/">GitHub y repositorios remotos</a>.</p>
 
 
 

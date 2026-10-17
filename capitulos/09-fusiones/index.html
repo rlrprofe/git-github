@@ -80,7 +80,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#9-fusiones-y-conflictos" class="md-skip">
+        <a href="#9-fusiones-y-resolucion-de-conflictos" class="md-skip">
           Saltar a contenido
         </a>
       
@@ -567,10 +567,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#objetivos-de-aprendizaje" class="md-nav__link">
+  <a href="#91-que-significa-fusionar" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Objetivos de aprendizaje
+        9.1. Qué significa fusionar
       
     </span>
   </a>
@@ -578,10 +578,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#contenidos-previstos" class="md-nav__link">
+  <a href="#92-fast-forward-y-merge-con-commit" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Contenidos previstos
+        9.2. Fast-forward y merge con commit
       
     </span>
   </a>
@@ -589,10 +589,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#practica-inicial" class="md-nav__link">
+  <a href="#93-que-es-un-conflicto" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Práctica inicial
+        9.3. Qué es un conflicto
       
     </span>
   </a>
@@ -600,10 +600,43 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#comprobacion-del-aprendizaje" class="md-nav__link">
+  <a href="#94-resolver-el-conflicto-paso-a-paso" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Comprobación del aprendizaje
+        9.4. Resolver el conflicto paso a paso
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#95-que-significan-ours-y-theirs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9.5. Qué significan --ours y --theirs
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#96-conflictos-por-historiales-independientes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9.6. Conflictos por historiales independientes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#97-actividad-guiada-de-conflicto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9.7. Actividad guiada de conflicto
       
     </span>
   </a>
@@ -888,10 +921,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#objetivos-de-aprendizaje" class="md-nav__link">
+  <a href="#91-que-significa-fusionar" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Objetivos de aprendizaje
+        9.1. Qué significa fusionar
       
     </span>
   </a>
@@ -899,10 +932,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#contenidos-previstos" class="md-nav__link">
+  <a href="#92-fast-forward-y-merge-con-commit" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Contenidos previstos
+        9.2. Fast-forward y merge con commit
       
     </span>
   </a>
@@ -910,10 +943,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#practica-inicial" class="md-nav__link">
+  <a href="#93-que-es-un-conflicto" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Práctica inicial
+        9.3. Qué es un conflicto
       
     </span>
   </a>
@@ -921,10 +954,43 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#comprobacion-del-aprendizaje" class="md-nav__link">
+  <a href="#94-resolver-el-conflicto-paso-a-paso" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Comprobación del aprendizaje
+        9.4. Resolver el conflicto paso a paso
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#95-que-significan-ours-y-theirs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9.5. Qué significan --ours y --theirs
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#96-conflictos-por-historiales-independientes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9.6. Conflictos por historiales independientes
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#97-actividad-guiada-de-conflicto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9.7. Actividad guiada de conflicto
       
     </span>
   </a>
@@ -951,23 +1017,73 @@
   
 
 
-<h1 id="9-fusiones-y-conflictos">9. Fusiones y conflictos<a class="headerlink" href="#9-fusiones-y-conflictos" title="Permanent link">&para;</a></h1>
-<div class="admonition note">
-<p class="admonition-title">Capítulo en desarrollo</p>
-<p>Este archivo contiene el esquema didáctico inicial. Se ampliará con explicaciones detalladas, ejemplos de terminal, capturas, actividades y soluciones.</p>
-</div>
-<h2 id="objetivos-de-aprendizaje">Objetivos de aprendizaje<a class="headerlink" href="#objetivos-de-aprendizaje" title="Permanent link">&para;</a></h2>
-<p>Al finalizar este capítulo, el alumnado deberá comprender y aplicar los conceptos y procedimientos indicados a continuación.</p>
-<h2 id="contenidos-previstos">Contenidos previstos<a class="headerlink" href="#contenidos-previstos" title="Permanent link">&para;</a></h2>
-<p>Qué hace <code>git merge</code>; fast-forward; commits de fusión; conflictos; marcadores <code>&lt;&lt;&lt;&lt;&lt;&lt;&lt;</code>, <code>=======</code> y <code>&gt;&gt;&gt;&gt;&gt;&gt;&gt;</code>; resolución desde terminal y VS Code.</p>
-<h2 id="practica-inicial">Práctica inicial<a class="headerlink" href="#practica-inicial" title="Permanent link">&para;</a></h2>
-<p>Provoca de forma controlada un conflicto en un archivo de texto y resuélvelo.</p>
-<h2 id="comprobacion-del-aprendizaje">Comprobación del aprendizaje<a class="headerlink" href="#comprobacion-del-aprendizaje" title="Permanent link">&para;</a></h2>
-<ul>
-<li>Explica qué has hecho y por qué.</li>
-<li>Conserva las evidencias relevantes de los comandos utilizados.</li>
-<li>Anota cualquier error encontrado y cómo lo has resuelto.</li>
-</ul>
+<h1 id="9-fusiones-y-resolucion-de-conflictos">9. Fusiones y resolución de conflictos<a class="headerlink" href="#9-fusiones-y-resolucion-de-conflictos" title="Permanent link">&para;</a></h1>
+<h2 id="91-que-significa-fusionar">9.1. Qué significa fusionar<a class="headerlink" href="#91-que-significa-fusionar" title="Permanent link">&para;</a></h2>
+<p><strong>Fusionar</strong> (<em>merge</em>) significa integrar en una rama el trabajo desarrollado en otra. Lo habitual es situarse en la rama que recibirá los cambios y ejecutar <code>git merge nombre-rama</code>.</p>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>switch<span class="w"> </span>main
+git<span class="w"> </span>merge<span class="w"> </span>feature/despedida
+</code></pre></div>
+<p>No confundas el orden: el comando anterior incorpora <code>feature/despedida</code> <strong>en</strong> <code>main</code>.</p>
+<h2 id="92-fast-forward-y-merge-con-commit">9.2. Fast-forward y merge con commit<a class="headerlink" href="#92-fast-forward-y-merge-con-commit" title="Permanent link">&para;</a></h2>
+<p>Si <code>main</code> no ha avanzado desde que creaste la rama, Git puede mover la referencia hacia delante: <strong>fast-forward</strong>. Si ambas ramas contienen commits nuevos, Git puede crear un <strong>commit de fusión</strong> con dos padres.</p>
+<pre class="mermaid"><code>flowchart LR
+    A[A] --&gt; B[B]
+    B --&gt; C[C en main]
+    B --&gt; D[D en feature]
+    C --&gt; E[Merge]
+    D --&gt; E</code></pre>
+<p>El commit de fusión conserva la relación entre las dos líneas de trabajo. No todas las fusiones crean un commit adicional.</p>
+<h2 id="93-que-es-un-conflicto">9.3. Qué es un conflicto<a class="headerlink" href="#93-que-es-un-conflicto" title="Permanent link">&para;</a></h2>
+<p>Git suele combinar automáticamente cambios realizados en zonas diferentes. Aparece un conflicto cuando no puede decidir con seguridad cómo integrar modificaciones incompatibles, por ejemplo cuando dos ramas cambian la misma línea.</p>
+<p>Supón que <code>main</code> contiene:</p>
+<div class="highlight"><pre><span></span><code><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="s">"Bienvenido al inventario"</span><span class="p">);</span>
+</code></pre></div>
+<p>Y otra rama contiene:</p>
+<div class="highlight"><pre><span></span><code><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="s">"Bienvenido a la aplicación"</span><span class="p">);</span>
+</code></pre></div>
+<p>Si ambas modificaciones compiten en una fusión, Git puede insertar marcadores como:</p>
+<div class="highlight"><pre><span></span><code>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+System.out.println("Bienvenido al inventario");
+=======
+System.out.println("Bienvenido a la aplicación");
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; feature/mensaje
+</code></pre></div>
+<p><code>HEAD</code> señala la versión de la rama en la que estás fusionando. Los marcadores <strong>no son código válido</strong>: debes editar el archivo, decidir el resultado final y eliminar los delimitadores.</p>
+<h2 id="94-resolver-el-conflicto-paso-a-paso">9.4. Resolver el conflicto paso a paso<a class="headerlink" href="#94-resolver-el-conflicto-paso-a-paso" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Ejecuta <code>git status</code> para identificar los archivos en conflicto.</li>
+<li>Abre cada archivo y decide qué contenido conservar o cómo combinar ambas versiones.</li>
+<li>Elimina <code>&lt;&lt;&lt;&lt;&lt;&lt;&lt;</code>, <code>=======</code> y <code>&gt;&gt;&gt;&gt;&gt;&gt;&gt;</code>.</li>
+<li>Compila o ejecuta pruebas: resolver marcadores no garantiza que el programa funcione.</li>
+<li>Marca el archivo como resuelto y finaliza:</li>
+</ol>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>add<span class="w"> </span>HolaGit.java
+git<span class="w"> </span>commit
+</code></pre></div>
+<p>Si Git propone un mensaje de fusión, revísalo y guárdalo. Para cancelar una fusión en curso antes de resolverla:</p>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>merge<span class="w"> </span>--abort
+</code></pre></div>
+<h2 id="95-que-significan-ours-y-theirs">9.5. Qué significan <code>--ours</code> y <code>--theirs</code><a class="headerlink" href="#95-que-significan-ours-y-theirs" title="Permanent link">&para;</a></h2>
+<p>Durante un <strong>merge</strong>, <code>--ours</code> representa la versión de la rama actual y <code>--theirs</code> la que se está incorporando:</p>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>checkout<span class="w"> </span>--ours<span class="w"> </span>HolaGit.java
+git<span class="w"> </span>add<span class="w"> </span>HolaGit.java
+</code></pre></div>
+<p>Esto conserva una versión completa del archivo y <strong>descarta la otra versión para ese archivo</strong>. No lo utilices sin revisar. Durante un <em>rebase</em>, la interpretación práctica de estas opciones puede resultar contraintuitiva; comprueba siempre el contexto.</p>
+<h2 id="96-conflictos-por-historiales-independientes">9.6. Conflictos por historiales independientes<a class="headerlink" href="#96-conflictos-por-historiales-independientes" title="Permanent link">&para;</a></h2>
+<p>Si un repositorio se inicializó localmente y otro en GitHub, pueden existir dos commits iniciales sin relación. <code>git merge origin/main --allow-unrelated-histories</code> permite unirlos, pero <strong>no debe ser una receta automática</strong>: primero revisa qué archivos existen y si realmente quieres conservar ambos historiales.</p>
+<h2 id="97-actividad-guiada-de-conflicto">9.7. Actividad guiada de conflicto<a class="headerlink" href="#97-actividad-guiada-de-conflicto" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Crea dos ramas desde el mismo commit: <code>feature/saludo-a</code> y <code>feature/saludo-b</code>.</li>
+<li>Cambia la misma línea de <code>HolaGit.java</code> de manera diferente en cada rama y registra cada cambio.</li>
+<li>Integra una rama en <code>main</code> y después intenta integrar la otra.</li>
+<li>Resuelve el conflicto combinando las ideas en un único mensaje; compila el programa.</li>
+<li>Consulta <code>git log --oneline --graph --all</code> y explica el resultado.</li>
+</ol>
+<details class="success">
+<summary>Qué se evalúa</summary>
+<p>Debes identificar el archivo conflictivo, explicar las dos versiones, producir un archivo sin marcadores, comprobar que funciona y terminar la fusión con un commit cuando corresponda.</p>
+</details>
+<p><strong>Siguiente:</strong> <a href="../10-colaboracion/">Trabajo colaborativo</a>.</p>
 
 
 
