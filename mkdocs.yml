@@ -67,7 +67,7 @@ nav:
   - "10. Trabajo colaborativo": capitulos/10-colaboracion.md
   - "11. Deshacer y recuperar cambios": capitulos/11-recuperacion.md
   - "12. Buenas prácticas": capitulos/12-buenas-practicas.md
-  - "13. Git desde Visual Studio Code": capitulos/13-vscode.md
+  - "13. Git y GitHub en los entornos de desarrollo": capitulos/13-vscode.md
   - "14. Git en proyectos Java y Maven": capitulos/14-java-maven.md
   - "15. Flujos de trabajo profesionales": capitulos/15-flujos.md
   - "16. Problemas frecuentes": capitulos/16-problemas.md
