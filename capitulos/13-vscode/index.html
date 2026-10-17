@@ -29,7 +29,7 @@
     
     
       
-        <title>13. Git desde Visual Studio Code - Git y GitHub · Guía práctica de control de versiones</title>
+        <title>13. Git y GitHub en los entornos de desarrollo - Git y GitHub · Guía práctica de control de versiones</title>
       
     
     
@@ -80,7 +80,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#13-git-desde-visual-studio-code" class="md-skip">
+        <a href="#13-git-y-github-desde-los-entornos-de-desarrollo" class="md-skip">
           Saltar a contenido
         </a>
       
@@ -116,7 +116,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              13. Git desde Visual Studio Code
+              13. Git y GitHub en los entornos de desarrollo
             
           </span>
         </div>
@@ -631,7 +631,7 @@
   <span class="md-ellipsis">
     
   
-    13. Git desde Visual Studio Code
+    13. Git y GitHub en los entornos de desarrollo
   
 
     
@@ -649,7 +649,7 @@
   <span class="md-ellipsis">
     
   
-    13. Git desde Visual Studio Code
+    13. Git y GitHub en los entornos de desarrollo
   
 
     
@@ -675,10 +675,399 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#131-la-interfaz-grafica-y-los-comandos-realizan-operaciones-equivalentes" class="md-nav__link">
+  <a href="#131-git-no-pertenece-al-ide" class="md-nav__link">
     <span class="md-ellipsis">
       
-        13.1. La interfaz gráfica y los comandos realizan operaciones equivalentes
+        13.1. Git no pertenece al IDE
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="13.1. Git no pertenece al IDE">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1311-los-tres-espacios-de-trabajo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.1.1. Los tres espacios de trabajo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1312-tabla-de-equivalencias" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.1.2. Tabla de equivalencias
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#132-preparacion-comun-para-todos-los-ide" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.2. Preparación común para todos los IDE
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="13.2. Preparación común para todos los IDE">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#repositorio-de-practica-compartido" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Repositorio de práctica compartido
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#133-git-en-visual-studio-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.3. Git en Visual Studio Code
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="13.3. Git en Visual Studio Code">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1331-abrir-el-proyecto-y-localizar-el-panel-git" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.3.1. Abrir el proyecto y localizar el panel Git
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1332-modificar-comparar-y-preparar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.3.2. Modificar, comparar y preparar
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1333-crear-el-commit-y-verificarlo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.3.3. Crear el commit y verificarlo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1334-ramas-remotos-y-conflictos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.3.4. Ramas, remotos y conflictos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1335-extensiones-opcionales" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.3.5. Extensiones opcionales
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#134-git-en-intellij-idea" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.4. Git en IntelliJ IDEA
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="13.4. Git en IntelliJ IDEA">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1341-abrir-o-clonar-un-proyecto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.4.1. Abrir o clonar un proyecto
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1342-consultar-y-registrar-cambios" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.4.2. Consultar y registrar cambios
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1343-historial-ramas-y-sincronizacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.4.3. Historial, ramas y sincronización
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1344-resolver-conflictos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.4.4. Resolver conflictos
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#135-git-en-apache-netbeans" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.5. Git en Apache NetBeans
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="13.5. Git en Apache NetBeans">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1351-abrir-o-clonar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.5.1. Abrir o clonar
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1352-ver-cambios-y-crear-commits" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.5.2. Ver cambios y crear commits
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1353-ramas-historial-y-remotos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.5.3. Ramas, historial y remotos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1354-resolver-conflictos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.5.4. Resolver conflictos
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#136-git-en-eclipse-ide-egit" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.6. Git en Eclipse IDE (EGit)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="13.6. Git en Eclipse IDE (EGit)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1361-vistas-principales" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.6.1. Vistas principales
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1362-flujo-de-trabajo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.6.2. Flujo de trabajo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1363-ramas-y-conflictos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.6.3. Ramas y conflictos
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#137-git-en-android-studio" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.7. Git en Android Studio
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="13.7. Git en Android Studio">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1371-flujo-habitual" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.7.1. Flujo habitual
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1372-que-no-debemos-subir" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.7.2. Qué no debemos subir
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#138-git-en-visual-studio" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.8. Git en Visual Studio
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="13.8. Git en Visual Studio">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1381-paneles-principales" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.8.1. Paneles principales
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1382-flujo-de-trabajo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.8.2. Flujo de trabajo
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#139-comparativa-de-ide-cual-utilizar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.9. Comparativa de IDE: ¿cuál utilizar?
       
     </span>
   </a>
@@ -686,10 +1075,60 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#132-preparacion" class="md-nav__link">
+  <a href="#1310-practica-guiada-un-repositorio-dos-entornos" class="md-nav__link">
     <span class="md-ellipsis">
       
-        13.2. Preparación
+        13.10. Práctica guiada: un repositorio, dos entornos
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="13.10. Práctica guiada: un repositorio, dos entornos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#parte-a-crear-una-version-desde-terminal" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Parte A. Crear una versión desde terminal
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parte-b-crear-una-version-desde-un-ide" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Parte B. Crear una versión desde un IDE
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parte-c-cambiar-de-ide" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Parte C. Cambiar de IDE
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1311-practica-guiada-crear-y-publicar-una-rama" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.11. Práctica guiada: crear y publicar una rama
       
     </span>
   </a>
@@ -697,10 +1136,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#133-interpretar-el-panel-source-control" class="md-nav__link">
+  <a href="#1312-practica-guiada-resolver-un-conflicto-desde-el-ide" class="md-nav__link">
     <span class="md-ellipsis">
       
-        13.3. Interpretar el panel Source Control
+        13.12. Práctica guiada: resolver un conflicto desde el IDE
       
     </span>
   </a>
@@ -708,10 +1147,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#134-primer-commit-desde-vs-code" class="md-nav__link">
+  <a href="#1313-problemas-frecuentes" class="md-nav__link">
     <span class="md-ellipsis">
       
-        13.4. Primer commit desde VS Code
+        13.13. Problemas frecuentes
       
     </span>
   </a>
@@ -719,10 +1158,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#135-ramas-y-conflictos" class="md-nav__link">
+  <a href="#1314-autoevaluacion" class="md-nav__link">
     <span class="md-ellipsis">
       
-        13.5. Ramas y conflictos
+        13.14. Autoevaluación
       
     </span>
   </a>
@@ -730,32 +1169,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#136-sincronizacion-con-github" class="md-nav__link">
+  <a href="#1315-recursos-oficiales" class="md-nav__link">
     <span class="md-ellipsis">
       
-        13.6. Sincronización con GitHub
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#137-extensiones-opcionales" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        13.7. Extensiones opcionales
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#actividades" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Actividades
+        13.15. Recursos oficiales
       
     </span>
   </a>
@@ -932,10 +1349,399 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#131-la-interfaz-grafica-y-los-comandos-realizan-operaciones-equivalentes" class="md-nav__link">
+  <a href="#131-git-no-pertenece-al-ide" class="md-nav__link">
     <span class="md-ellipsis">
       
-        13.1. La interfaz gráfica y los comandos realizan operaciones equivalentes
+        13.1. Git no pertenece al IDE
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="13.1. Git no pertenece al IDE">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1311-los-tres-espacios-de-trabajo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.1.1. Los tres espacios de trabajo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1312-tabla-de-equivalencias" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.1.2. Tabla de equivalencias
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#132-preparacion-comun-para-todos-los-ide" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.2. Preparación común para todos los IDE
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="13.2. Preparación común para todos los IDE">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#repositorio-de-practica-compartido" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Repositorio de práctica compartido
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#133-git-en-visual-studio-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.3. Git en Visual Studio Code
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="13.3. Git en Visual Studio Code">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1331-abrir-el-proyecto-y-localizar-el-panel-git" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.3.1. Abrir el proyecto y localizar el panel Git
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1332-modificar-comparar-y-preparar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.3.2. Modificar, comparar y preparar
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1333-crear-el-commit-y-verificarlo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.3.3. Crear el commit y verificarlo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1334-ramas-remotos-y-conflictos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.3.4. Ramas, remotos y conflictos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1335-extensiones-opcionales" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.3.5. Extensiones opcionales
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#134-git-en-intellij-idea" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.4. Git en IntelliJ IDEA
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="13.4. Git en IntelliJ IDEA">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1341-abrir-o-clonar-un-proyecto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.4.1. Abrir o clonar un proyecto
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1342-consultar-y-registrar-cambios" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.4.2. Consultar y registrar cambios
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1343-historial-ramas-y-sincronizacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.4.3. Historial, ramas y sincronización
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1344-resolver-conflictos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.4.4. Resolver conflictos
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#135-git-en-apache-netbeans" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.5. Git en Apache NetBeans
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="13.5. Git en Apache NetBeans">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1351-abrir-o-clonar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.5.1. Abrir o clonar
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1352-ver-cambios-y-crear-commits" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.5.2. Ver cambios y crear commits
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1353-ramas-historial-y-remotos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.5.3. Ramas, historial y remotos
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1354-resolver-conflictos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.5.4. Resolver conflictos
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#136-git-en-eclipse-ide-egit" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.6. Git en Eclipse IDE (EGit)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="13.6. Git en Eclipse IDE (EGit)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1361-vistas-principales" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.6.1. Vistas principales
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1362-flujo-de-trabajo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.6.2. Flujo de trabajo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1363-ramas-y-conflictos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.6.3. Ramas y conflictos
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#137-git-en-android-studio" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.7. Git en Android Studio
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="13.7. Git en Android Studio">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1371-flujo-habitual" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.7.1. Flujo habitual
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1372-que-no-debemos-subir" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.7.2. Qué no debemos subir
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#138-git-en-visual-studio" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.8. Git en Visual Studio
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="13.8. Git en Visual Studio">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1381-paneles-principales" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.8.1. Paneles principales
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#1382-flujo-de-trabajo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.8.2. Flujo de trabajo
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#139-comparativa-de-ide-cual-utilizar" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.9. Comparativa de IDE: ¿cuál utilizar?
       
     </span>
   </a>
@@ -943,10 +1749,60 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#132-preparacion" class="md-nav__link">
+  <a href="#1310-practica-guiada-un-repositorio-dos-entornos" class="md-nav__link">
     <span class="md-ellipsis">
       
-        13.2. Preparación
+        13.10. Práctica guiada: un repositorio, dos entornos
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="13.10. Práctica guiada: un repositorio, dos entornos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#parte-a-crear-una-version-desde-terminal" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Parte A. Crear una versión desde terminal
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parte-b-crear-una-version-desde-un-ide" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Parte B. Crear una versión desde un IDE
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parte-c-cambiar-de-ide" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Parte C. Cambiar de IDE
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1311-practica-guiada-crear-y-publicar-una-rama" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13.11. Práctica guiada: crear y publicar una rama
       
     </span>
   </a>
@@ -954,10 +1810,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#133-interpretar-el-panel-source-control" class="md-nav__link">
+  <a href="#1312-practica-guiada-resolver-un-conflicto-desde-el-ide" class="md-nav__link">
     <span class="md-ellipsis">
       
-        13.3. Interpretar el panel Source Control
+        13.12. Práctica guiada: resolver un conflicto desde el IDE
       
     </span>
   </a>
@@ -965,10 +1821,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#134-primer-commit-desde-vs-code" class="md-nav__link">
+  <a href="#1313-problemas-frecuentes" class="md-nav__link">
     <span class="md-ellipsis">
       
-        13.4. Primer commit desde VS Code
+        13.13. Problemas frecuentes
       
     </span>
   </a>
@@ -976,10 +1832,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#135-ramas-y-conflictos" class="md-nav__link">
+  <a href="#1314-autoevaluacion" class="md-nav__link">
     <span class="md-ellipsis">
       
-        13.5. Ramas y conflictos
+        13.14. Autoevaluación
       
     </span>
   </a>
@@ -987,32 +1843,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#136-sincronizacion-con-github" class="md-nav__link">
+  <a href="#1315-recursos-oficiales" class="md-nav__link">
     <span class="md-ellipsis">
       
-        13.6. Sincronización con GitHub
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#137-extensiones-opcionales" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        13.7. Extensiones opcionales
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#actividades" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Actividades
+        13.15. Recursos oficiales
       
     </span>
   </a>
@@ -1039,85 +1873,580 @@
   
 
 
-<h1 id="13-git-desde-visual-studio-code">13. Git desde Visual Studio Code<a class="headerlink" href="#13-git-desde-visual-studio-code" title="Permanent link">&para;</a></h1>
-<h2 id="131-la-interfaz-grafica-y-los-comandos-realizan-operaciones-equivalentes">13.1. La interfaz gráfica y los comandos realizan operaciones equivalentes<a class="headerlink" href="#131-la-interfaz-grafica-y-los-comandos-realizan-operaciones-equivalentes" title="Permanent link">&para;</a></h2>
-<p>VS Code incorpora una vista de <strong>Control de código fuente</strong> (<em>Source Control</em>) que permite consultar cambios, prepararlos, crear commits, cambiar de rama y sincronizar con remotos. Es útil, pero conviene entender primero qué comandos representa cada acción.</p>
-<h2 id="132-preparacion">13.2. Preparación<a class="headerlink" href="#132-preparacion" title="Permanent link">&para;</a></h2>
-<ol>
-<li>Instala Git y comprueba <code>git --version</code> en una terminal.</li>
-<li>Abre VS Code y selecciona <strong>Archivo → Abrir carpeta</strong>.</li>
-<li>Abre una carpeta que ya contenga <code>.git</code> o inicializa el repositorio desde el panel de control de versiones.</li>
-<li>Si no aparecen cambios, comprueba que abriste la <strong>carpeta raíz</strong> del repositorio.</li>
-</ol>
-<p>No es necesario instalar una extensión adicional para las funciones básicas de Git.</p>
-<h2 id="133-interpretar-el-panel-source-control">13.3. Interpretar el panel Source Control<a class="headerlink" href="#133-interpretar-el-panel-source-control" title="Permanent link">&para;</a></h2>
+<h1 id="13-git-y-github-desde-los-entornos-de-desarrollo">13. Git y GitHub desde los entornos de desarrollo<a class="headerlink" href="#13-git-y-github-desde-los-entornos-de-desarrollo" title="Permanent link">&para;</a></h1>
+<p>En los capítulos anteriores hemos trabajado con Git desde la terminal. En este capítulo aprenderás a utilizar las herramientas gráficas de <strong>Visual Studio Code, IntelliJ IDEA, Apache NetBeans, Eclipse, Android Studio y Visual Studio</strong>, sin perder de vista qué operación Git se ejecuta realmente.</p>
+<div class="admonition info">
+<p class="admonition-title">Objetivos de aprendizaje</p>
+<p>Al finalizar podrás reconocer el estado de un repositorio desde diferentes IDE, preparar cambios, crear commits, consultar el historial, gestionar ramas, sincronizar con GitHub y resolver conflictos. También sabrás cambiar de IDE <strong>sin perder el historial del proyecto</strong>.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Sobre los menús y las versiones</p>
+<p>Los nombres exactos de menús, iconos y ventanas pueden variar según la versión del IDE, el sistema operativo, el idioma de la interfaz y los complementos instalados. Se indican las rutas habituales y, cuando conviene, el <strong>comando Git equivalente</strong>, que es la referencia estable. En caso de duda, abre la terminal del proyecto y consulta <code>git status</code>.</p>
+</div>
+<h2 id="131-git-no-pertenece-al-ide">13.1. Git no pertenece al IDE<a class="headerlink" href="#131-git-no-pertenece-al-ide" title="Permanent link">&para;</a></h2>
+<p>Git es un sistema de control de versiones independiente. Un IDE es una aplicación que permite editar, ejecutar y depurar código; puede incluir una interfaz gráfica para invocar Git.</p>
+<p>Si un proyecto contiene una carpeta <code>.git/</code> en su raíz, sus commits, ramas y configuración de remotos seguirán existiendo aunque lo abras con otro editor. Por ejemplo, puedes crear un repositorio en PowerShell, abrirlo con NetBeans, realizar un commit desde IntelliJ IDEA y consultar el historial con VS Code.</p>
+<pre class="mermaid"><code>flowchart TD
+    A[Proyecto en disco] --&gt; B[Repositorio .git]
+    C[Terminal] --&gt; B
+    D[VS Code] --&gt; B
+    E[IntelliJ IDEA] --&gt; B
+    F[NetBeans / Eclipse] --&gt; B
+    G[Android Studio / Visual Studio] --&gt; B
+    B &lt;--&gt;|push / fetch / pull| H[GitHub]</code></pre>
+<div class="admonition warning">
+<p class="admonition-title">No confundir Git y GitHub</p>
+<p>Un <strong>commit</strong> se registra primero en el repositorio local. Un <strong>push</strong> publica commits en un remoto como GitHub. Los botones del IDE pueden combinar varias operaciones; comprueba qué hacen antes de utilizarlos.</p>
+</div>
+<h3 id="1311-los-tres-espacios-de-trabajo">13.1.1. Los tres espacios de trabajo<a class="headerlink" href="#1311-los-tres-espacios-de-trabajo" title="Permanent link">&para;</a></h3>
 <table>
 <thead>
 <tr>
-<th>Elemento visual</th>
-<th>Significado habitual</th>
+<th>Espacio</th>
+<th>Qué contiene</th>
+<th>Cómo se consulta</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Changes</td>
-<td>Cambios no preparados</td>
+<td>Directorio de trabajo</td>
+<td>Archivos que editas</td>
+<td>Explorador del IDE y <code>git status</code></td>
 </tr>
 <tr>
-<td>Staged Changes</td>
-<td>Cambios preparados para commit</td>
+<td>Zona de preparación (<em>staging area</em>)</td>
+<td>Cambios elegidos para el próximo commit</td>
+<td>Panel Git y <code>git diff --cached</code></td>
 </tr>
 <tr>
-<td><code>M</code></td>
-<td>Archivo modificado</td>
-</tr>
-<tr>
-<td><code>U</code></td>
-<td>Archivo sin seguimiento, según vista/configuración</td>
-</tr>
-<tr>
-<td><code>+</code> junto a archivo</td>
-<td>Preparar cambios (<em>stage</em>)</td>
-</tr>
-<tr>
-<td>Commit</td>
-<td>Registrar los cambios preparados</td>
+<td>Repositorio local</td>
+<td>Commits e historial</td>
+<td>Historial del IDE y <code>git log --oneline</code></td>
 </tr>
 </tbody>
 </table>
-<p>Los nombres e iconos exactos pueden variar entre versiones y configuraciones de VS Code. La terminal integrada permite verificar cualquier operación con <code>git status</code>.</p>
-<h2 id="134-primer-commit-desde-vs-code">13.4. Primer commit desde VS Code<a class="headerlink" href="#134-primer-commit-desde-vs-code" title="Permanent link">&para;</a></h2>
+<p>Un archivo puede tener <strong>cambios preparados y cambios sin preparar a la vez</strong>. No todos los IDE presentan esa distinción del mismo modo. Por ello, es fundamental revisar el contenido real del commit antes de confirmarlo.</p>
+<h3 id="1312-tabla-de-equivalencias">13.1.2. Tabla de equivalencias<a class="headerlink" href="#1312-tabla-de-equivalencias" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Objetivo</th>
+<th>Comando Git</th>
+<th>Acción gráfica habitual</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ver el estado</td>
+<td><code>git status</code></td>
+<td>Vista Git / Source Control / Git Changes</td>
+</tr>
+<tr>
+<td>Preparar un archivo</td>
+<td><code>git add archivo</code></td>
+<td>Stage / Add</td>
+</tr>
+<tr>
+<td>Registrar cambios</td>
+<td><code>git commit -m "Mensaje"</code></td>
+<td>Commit</td>
+</tr>
+<tr>
+<td>Ver diferencias</td>
+<td><code>git diff</code></td>
+<td>Diff / Compare</td>
+</tr>
+<tr>
+<td>Consultar historial</td>
+<td><code>git log --oneline</code></td>
+<td>Log / History</td>
+</tr>
+<tr>
+<td>Crear una rama</td>
+<td><code>git switch -c nueva-rama</code></td>
+<td>New Branch</td>
+</tr>
+<tr>
+<td>Cambiar de rama</td>
+<td><code>git switch nombre</code></td>
+<td>Checkout / Switch</td>
+</tr>
+<tr>
+<td>Obtener referencias remotas</td>
+<td><code>git fetch</code></td>
+<td>Fetch</td>
+</tr>
+<tr>
+<td>Integrar cambios remotos</td>
+<td><code>git pull</code></td>
+<td>Pull / Update Project, según IDE</td>
+</tr>
+<tr>
+<td>Publicar commits</td>
+<td><code>git push</code></td>
+<td>Push</td>
+</tr>
+</tbody>
+</table>
+<h2 id="132-preparacion-comun-para-todos-los-ide">13.2. Preparación común para todos los IDE<a class="headerlink" href="#132-preparacion-comun-para-todos-los-ide" title="Permanent link">&para;</a></h2>
+<p>Antes de comenzar:</p>
 <ol>
-<li>Abre <code>HolaGit</code>.</li>
-<li>Modifica <code>README.md</code> y guarda.</li>
-<li>En Source Control, abre la comparación para revisar qué líneas cambiaron.</li>
-<li>Prepara el archivo con el botón <code>+</code>.</li>
-<li>Escribe un mensaje descriptivo y confirma el commit.</li>
-<li>Abre la terminal integrada y ejecuta <code>git log --oneline</code> para comprobarlo.</li>
+<li>Instala Git y verifica su disponibilidad: <code>git --version</code>.</li>
+<li>Configura tu identidad si todavía no lo has hecho:</li>
+</ol>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>config<span class="w"> </span>--global<span class="w"> </span>user.name<span class="w"> </span><span class="s2">"Nombre Apellido"</span>
+git<span class="w"> </span>config<span class="w"> </span>--global<span class="w"> </span>user.email<span class="w"> </span><span class="s2">"correo@example.com"</span>
+</code></pre></div>
+<ol>
+<li>Crea o clona un repositorio de práctica.</li>
+<li>Abre <strong>la carpeta raíz del proyecto</strong>, la que contiene <code>.git/</code> (puede estar oculta), y no únicamente un archivo <code>.java</code>.</li>
+<li>Comprueba el estado desde una terminal del IDE:</li>
+</ol>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>status<span class="w"> </span>-sb
+git<span class="w"> </span>remote<span class="w"> </span>-v
+</code></pre></div>
+<div class="admonition tip">
+<p class="admonition-title">Windows y Linux</p>
+<p>Los comandos de Git son esencialmente los mismos en PowerShell, Git Bash y terminales Linux. Las rutas y la forma de abrir una terminal sí pueden cambiar. En los equipos del aula con Pop!_OS puedes trabajar con la terminal integrada del IDE.</p>
+</div>
+<h3 id="repositorio-de-practica-compartido">Repositorio de práctica compartido<a class="headerlink" href="#repositorio-de-practica-compartido" title="Permanent link">&para;</a></h3>
+<p>Para los ejercicios utilizaremos una carpeta sencilla:</p>
+<div class="highlight"><pre><span></span><code>hola-git-ide/
+├── README.md
+└── HolaGit.java
+</code></pre></div>
+<p>Contenido de <code>HolaGit.java</code>:</p>
+<div class="highlight"><pre><span></span><code><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">HolaGit</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">main</span><span class="p">(</span><span class="n">String</span><span class="o">[]</span><span class="w"> </span><span class="n">args</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="s">"Hola desde Git"</span><span class="p">);</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>Si todavía no existe el repositorio:</p>
+<div class="highlight"><pre><span></span><code>mkdir<span class="w"> </span>hola-git-ide
+<span class="nb">cd</span><span class="w"> </span>hola-git-ide
+git<span class="w"> </span>init
+</code></pre></div>
+<p>Crea los dos archivos, prepara los cambios y registra la primera versión:</p>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>add<span class="w"> </span>README.md<span class="w"> </span>HolaGit.java
+git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">"Crear ejemplo inicial para practicar Git"</span>
+</code></pre></div>
+<div class="admonition note">
+<p class="admonition-title">Si el repositorio ya existe</p>
+<p>No vuelvas a ejecutar <code>git init</code> ni recrees los archivos. Abre el proyecto existente y utiliza <code>git status</code> para conocer su situación.</p>
+</div>
+<h2 id="133-git-en-visual-studio-code">13.3. Git en Visual Studio Code<a class="headerlink" href="#133-git-en-visual-studio-code" title="Permanent link">&para;</a></h2>
+<p><strong>Visual Studio Code</strong> incluye funciones básicas de Git sin instalar extensiones adicionales. Su panel <strong>Source Control</strong> permite revisar archivos, preparar cambios, crear commits y trabajar con ramas y remotos.</p>
+<h3 id="1331-abrir-el-proyecto-y-localizar-el-panel-git">13.3.1. Abrir el proyecto y localizar el panel Git<a class="headerlink" href="#1331-abrir-el-proyecto-y-localizar-el-panel-git" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Abre VS Code.</li>
+<li>Selecciona <strong>File → Open Folder</strong> (<em>Archivo → Abrir carpeta</em>).</li>
+<li>Abre la carpeta <code>hola-git-ide</code>.</li>
+<li>Selecciona el icono <strong>Source Control</strong> en la barra lateral (habitualmente <code>Ctrl+Shift+G</code>).</li>
+<li>Comprueba que VS Code detecta el repositorio y muestra la rama actual.</li>
+</ol>
+<p>Si el panel ofrece <strong>Initialize Repository</strong>, asegúrate primero de que no has abierto una carpeta distinta de la raíz. Inicializar otro repositorio por error puede complicar el trabajo.</p>
+<h3 id="1332-modificar-comparar-y-preparar">13.3.2. Modificar, comparar y preparar<a class="headerlink" href="#1332-modificar-comparar-y-preparar" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Cambia el texto del <code>System.out.println</code> y guarda el archivo.</li>
+<li>Abre <strong>Source Control</strong>: <code>HolaGit.java</code> debería aparecer como modificado (<code>M</code>).</li>
+<li>Selecciona el archivo para abrir la comparación (<em>diff</em>): a un lado verás la versión anterior y al otro la nueva.</li>
+<li>Utiliza <strong>Stage Changes</strong> (<code>+</code>) para preparar el cambio.</li>
+<li>Comprueba que pasa a <strong>Staged Changes</strong>.</li>
+</ol>
+<p>Equivalente en terminal:</p>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>diff<span class="w"> </span>HolaGit.java
+git<span class="w"> </span>add<span class="w"> </span>HolaGit.java
+git<span class="w"> </span>diff<span class="w"> </span>--cached
+</code></pre></div>
+<div class="admonition warning">
+<p class="admonition-title">Stage no significa commit</p>
+<p>Preparar un archivo solo selecciona los cambios que entrarán en el siguiente commit. Todavía no se ha creado una versión en el historial.</p>
+</div>
+<h3 id="1333-crear-el-commit-y-verificarlo">13.3.3. Crear el commit y verificarlo<a class="headerlink" href="#1333-crear-el-commit-y-verificarlo" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Escribe el mensaje <code>Modificar saludo de la aplicación</code>.</li>
+<li>Pulsa <strong>Commit</strong>.</li>
+<li>Abre la terminal integrada (<strong>Terminal → New Terminal</strong>) y ejecuta:</li>
+</ol>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>log<span class="w"> </span>--oneline<span class="w"> </span>-3
+git<span class="w"> </span>status
+</code></pre></div>
+<p>Si el IDE ofrece crear un commit con todos los cambios sin preparar, revisa primero qué archivos se incluirán. Es preferible entender la zona de preparación y utilizarla explícitamente durante el aprendizaje.</p>
+<h3 id="1334-ramas-remotos-y-conflictos">13.3.4. Ramas, remotos y conflictos<a class="headerlink" href="#1334-ramas-remotos-y-conflictos" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Para crear o cambiar de rama, utiliza el indicador de rama de la barra inferior o la paleta de comandos (<code>Ctrl+Shift+P</code>).</li>
+<li>Para publicar o descargar, utiliza <strong>Push</strong>, <strong>Pull</strong>, <strong>Fetch</strong> o las acciones de sincronización.</li>
+<li><strong>Sync Changes</strong> puede ejecutar más de una operación; no lo confundas con un simple <code>push</code>.</li>
+<li>Ante conflictos, VS Code puede ofrecer un editor de fusiones (<em>Merge Editor</em>) o acciones para aceptar cambios. Revisa el resultado completo antes de darlo por resuelto.</li>
+</ul>
+<p>Comprueba siempre:</p>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>branch<span class="w"> </span>-vv
+git<span class="w"> </span>status
+</code></pre></div>
+<h3 id="1335-extensiones-opcionales">13.3.5. Extensiones opcionales<a class="headerlink" href="#1335-extensiones-opcionales" title="Permanent link">&para;</a></h3>
+<p>Extensiones como <strong>GitLens</strong> pueden facilitar la consulta del historial y la autoría de líneas. No son necesarias para aprender las operaciones fundamentales ni deben sustituir el conocimiento de Git.</p>
+<h2 id="134-git-en-intellij-idea">13.4. Git en IntelliJ IDEA<a class="headerlink" href="#134-git-en-intellij-idea" title="Permanent link">&para;</a></h2>
+<p><strong>IntelliJ IDEA</strong> es especialmente relevante para Java, Maven y Spring Boot. Dispone de herramientas de control de versiones integradas y vistas para cambios, historial, ramas y conflictos.</p>
+<h3 id="1341-abrir-o-clonar-un-proyecto">13.4.1. Abrir o clonar un proyecto<a class="headerlink" href="#1341-abrir-o-clonar-un-proyecto" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Proyecto existente:</strong> abre la carpeta raíz con <strong>Open</strong>.</li>
+<li><strong>Proyecto remoto:</strong> utiliza la opción de obtener un proyecto desde control de versiones (<em>Get from VCS / Clone Repository</em>, según versión) e indica la URL del repositorio.</li>
+<li>Si el IDE no encuentra Git, comprueba la configuración de la ruta del ejecutable en <strong>Settings → Version Control → Git</strong> (ruta aproximada; puede variar).</li>
+</ul>
+<p>Clonar equivale a:</p>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/usuario/repositorio.git
+</code></pre></div>
+<h3 id="1342-consultar-y-registrar-cambios">13.4.2. Consultar y registrar cambios<a class="headerlink" href="#1342-consultar-y-registrar-cambios" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Modifica <code>HolaGit.java</code>.</li>
+<li>Abre la vista <strong>Commit</strong> o <strong>Local Changes</strong>, según la interfaz.</li>
+<li>Selecciona el archivo y revisa el <em>diff</em>.</li>
+<li>Elige los cambios que quieres incluir.</li>
+<li>Escribe un mensaje descriptivo y pulsa <strong>Commit</strong>.</li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Staging en IntelliJ IDEA</p>
+<p>IntelliJ IDEA puede presentar una interfaz de selección de cambios diferente de la zona de preparación clásica de Git. En algunas versiones es posible activar una interfaz explícita de <em>staging</em>. <strong>Seleccionar un archivo en la ventana de commit no debe interpretarse automáticamente como ejecutar <code>git add</code></strong>. Para estudiar el índice real utiliza <code>git status</code> y <code>git diff --cached</code>.</p>
+</div>
+<h3 id="1343-historial-ramas-y-sincronizacion">13.4.3. Historial, ramas y sincronización<a class="headerlink" href="#1343-historial-ramas-y-sincronizacion" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Consulta la pestaña <strong>Git → Log</strong> para ver commits y ramas.</li>
+<li>Utiliza el selector de rama para crear <code>feature/mensaje</code> o cambiar a otra rama.</li>
+<li>Busca las acciones <strong>Git → Push</strong>, <strong>Git → Pull</strong> y <strong>Git → Fetch</strong> en el menú Git o en los menús contextuales.</li>
+<li>Para publicar una rama nueva, comprueba que queda vinculada al remoto apropiado.</li>
+</ul>
+<p>Ejemplo de comprobación:</p>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>switch<span class="w"> </span>-c<span class="w"> </span>feature/mensaje
+git<span class="w"> </span>branch<span class="w"> </span>--show-current
+git<span class="w"> </span>push<span class="w"> </span>-u<span class="w"> </span>origin<span class="w"> </span>feature/mensaje
+</code></pre></div>
+<h3 id="1344-resolver-conflictos">13.4.4. Resolver conflictos<a class="headerlink" href="#1344-resolver-conflictos" title="Permanent link">&para;</a></h3>
+<p>Cuando una fusión produce un conflicto, IntelliJ IDEA puede mostrar un editor de tres vías: cambios locales, cambios entrantes y resultado de la fusión. La distribución visual puede variar.</p>
+<ol>
+<li>Lee ambas versiones antes de elegir.</li>
+<li>Construye el resultado correcto en la vista de resolución.</li>
+<li>Comprueba que el programa compila y se ejecuta.</li>
+<li>Marca el archivo como resuelto y completa la operación de Git pendiente.</li>
+</ol>
+<p>No aceptes una versión automáticamente solo porque sea «la tuya» o «la remota».</p>
+<h2 id="135-git-en-apache-netbeans">13.5. Git en Apache NetBeans<a class="headerlink" href="#135-git-en-apache-netbeans" title="Permanent link">&para;</a></h2>
+<p><strong>Apache NetBeans</strong> resulta útil en proyectos Java y Maven y ofrece operaciones Git desde sus menús y ventanas de proyecto.</p>
+<h3 id="1351-abrir-o-clonar">13.5.1. Abrir o clonar<a class="headerlink" href="#1351-abrir-o-clonar" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Abre NetBeans y carga el proyecto desde <strong>File → Open Project</strong> si ya existe localmente.</li>
+<li>Para descargar un proyecto, busca <strong>Team → Git → Clone</strong> (o la acción equivalente en tu versión).</li>
+<li>Indica la URL y las credenciales cuando sean necesarias.</li>
+<li>Selecciona la carpeta de destino y abre el proyecto clonado.</li>
+</ol>
+<h3 id="1352-ver-cambios-y-crear-commits">13.5.2. Ver cambios y crear commits<a class="headerlink" href="#1352-ver-cambios-y-crear-commits" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Modifica una clase Java y guarda.</li>
+<li>Utiliza las opciones Git del menú <strong>Team</strong> o del menú contextual del proyecto para consultar el estado y las diferencias.</li>
+<li>Abre la acción <strong>Commit</strong>.</li>
+<li>Revisa los archivos seleccionados, escribe el mensaje y confirma.</li>
+<li>Comprueba el resultado con:</li>
+</ol>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>log<span class="w"> </span>--oneline<span class="w"> </span>-3
+git<span class="w"> </span>status
+</code></pre></div>
+<div class="admonition tip">
+<p class="admonition-title">Terminología en NetBeans</p>
+<p>Algunas interfaces de NetBeans permiten seleccionar archivos para el commit directamente desde la ventana de confirmación. No presupongas que cada casilla de esa ventana equivale exactamente al comando <code>git add</code>; verifica la zona de preparación desde la terminal cuando el ejercicio lo requiera.</p>
+</div>
+<h3 id="1353-ramas-historial-y-remotos">13.5.3. Ramas, historial y remotos<a class="headerlink" href="#1353-ramas-historial-y-remotos" title="Permanent link">&para;</a></h3>
+<p>Busca las acciones de Git para <strong>Branch</strong>, <strong>Checkout</strong>, <strong>Merge</strong>, <strong>Fetch</strong>, <strong>Pull</strong> y <strong>Push</strong> desde el menú Team o los menús contextuales. La organización puede cambiar entre versiones.</p>
+<p>Una práctica recomendable es crear la rama desde NetBeans y comprobarla inmediatamente:</p>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>branch<span class="w"> </span>--show-current
+git<span class="w"> </span>log<span class="w"> </span>--oneline<span class="w"> </span>--decorate<span class="w"> </span>-4
+</code></pre></div>
+<h3 id="1354-resolver-conflictos">13.5.4. Resolver conflictos<a class="headerlink" href="#1354-resolver-conflictos" title="Permanent link">&para;</a></h3>
+<p>NetBeans puede señalar archivos con conflicto y ofrecer herramientas de comparación y resolución. Tras editar el resultado:</p>
+<ol>
+<li>Elimina los marcadores de conflicto si los hubiera.</li>
+<li>Guarda y comprueba que el código funciona.</li>
+<li>Marca el archivo como resuelto según la interfaz.</li>
+<li>Completa el commit de fusión cuando corresponda.</li>
+</ol>
+<h2 id="136-git-en-eclipse-ide-egit">13.6. Git en Eclipse IDE (EGit)<a class="headerlink" href="#136-git-en-eclipse-ide-egit" title="Permanent link">&para;</a></h2>
+<p>En <strong>Eclipse</strong>, la integración de Git se realiza principalmente mediante <strong>EGit</strong>, que suele venir incluida en distribuciones actuales de Eclipse para desarrollo Java.</p>
+<h3 id="1361-vistas-principales">13.6.1. Vistas principales<a class="headerlink" href="#1361-vistas-principales" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Git Repositories</strong>: repositorios, ramas, remotos y referencias.</li>
+<li><strong>Git Staging</strong>: cambios preparados y no preparados.</li>
+<li><strong>History</strong>: commits y versiones anteriores.</li>
+</ul>
+<p>Puedes abrir estas vistas mediante <strong>Window → Show View → Other…</strong> y buscar las relacionadas con Git.</p>
+<h3 id="1362-flujo-de-trabajo">13.6.2. Flujo de trabajo<a class="headerlink" href="#1362-flujo-de-trabajo" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Importa un proyecto existente desde el repositorio local o clónalo con las herramientas de EGit.</li>
+<li>Modifica una clase Java.</li>
+<li>En <strong>Git Staging</strong>, revisa los archivos en <em>Unstaged Changes</em>.</li>
+<li>Prepara los cambios que quieras incluir en el commit.</li>
+<li>Escribe el mensaje y selecciona <strong>Commit</strong> (o <strong>Commit and Push</strong> si procede y entiendes ambas operaciones).</li>
+<li>Consulta la vista <strong>History</strong> para verificar el resultado.</li>
+</ol>
+<div class="admonition warning">
+<p class="admonition-title">Commit and Push</p>
+<p>Esta opción combina dos operaciones diferentes. Para aprender Git conviene practicarlas por separado y entender cuándo una modificación está solo en tu ordenador y cuándo ha llegado a GitHub.</p>
+</div>
+<h3 id="1363-ramas-y-conflictos">13.6.3. Ramas y conflictos<a class="headerlink" href="#1363-ramas-y-conflictos" title="Permanent link">&para;</a></h3>
+<p>Desde <strong>Git Repositories</strong> puedes explorar ramas y realizar operaciones de cambio y fusión. Si aparecen conflictos, consulta los archivos afectados, compara versiones y resuelve el contenido antes de completar el merge.</p>
+<h2 id="137-git-en-android-studio">13.7. Git en Android Studio<a class="headerlink" href="#137-git-en-android-studio" title="Permanent link">&para;</a></h2>
+<p><strong>Android Studio</strong> está basado en la plataforma de IntelliJ y comparte buena parte de su experiencia de control de versiones. Es especialmente interesante en DAM para aplicaciones Android con Java o Kotlin.</p>
+<h3 id="1371-flujo-habitual">13.7.1. Flujo habitual<a class="headerlink" href="#1371-flujo-habitual" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Abre un proyecto Android existente o clónalo desde un repositorio remoto.</li>
+<li>Comprueba que Git está disponible y que la carpeta raíz corresponde al repositorio.</li>
+<li>Modifica una clase, un archivo de interfaz o un recurso.</li>
+<li>Revisa el <em>diff</em> y crea un commit desde las herramientas de control de versiones.</li>
+<li>Publica los commits mediante <strong>Push</strong> y consulta el historial en <strong>Log</strong>.</li>
+</ol>
+<h3 id="1372-que-no-debemos-subir">13.7.2. Qué no debemos subir<a class="headerlink" href="#1372-que-no-debemos-subir" title="Permanent link">&para;</a></h3>
+<p>En un proyecto Android hay archivos generados, configuraciones locales y datos sensibles que normalmente no deben publicarse. Revisa el <code>.gitignore</code> del proyecto y presta especial atención a:</p>
+<ul>
+<li>Directorios de compilación como <code>build/</code>.</li>
+<li>Configuraciones locales como <code>local.properties</code>, que pueden contener rutas de SDK.</li>
+<li>Claves de firma, contraseñas y archivos de credenciales.</li>
+<li>Archivos de usuario o temporales específicos del equipo.</li>
+</ul>
+<div class="admonition danger">
+<p class="admonition-title">Seguridad</p>
+<p>Nunca subas claves de firma, contraseñas ni tokens al repositorio. Si una credencial llega a publicarse, eliminar el archivo en un commit posterior no garantiza que desaparezca del historial: revoca o sustituye la credencial comprometida.</p>
+</div>
+<p>Para ramas, fusiones y conflictos, aplica el procedimiento explicado en IntelliJ IDEA; las opciones concretas pueden cambiar según la versión.</p>
+<h2 id="138-git-en-visual-studio">13.8. Git en Visual Studio<a class="headerlink" href="#138-git-en-visual-studio" title="Permanent link">&para;</a></h2>
+<p><strong>Visual Studio</strong> (IDE completo) y <strong>Visual Studio Code</strong> (editor extensible) son productos diferentes. Visual Studio es especialmente relevante para C#, .NET y proyectos empresariales.</p>
+<h3 id="1381-paneles-principales">13.8.1. Paneles principales<a class="headerlink" href="#1381-paneles-principales" title="Permanent link">&para;</a></h3>
+<p>Las versiones actuales de Visual Studio incluyen vistas como <strong>Git Changes</strong> y <strong>Git Repository</strong>, desde las que puedes consultar cambios, registrar commits, revisar ramas y trabajar con remotos.</p>
+<h3 id="1382-flujo-de-trabajo">13.8.2. Flujo de trabajo<a class="headerlink" href="#1382-flujo-de-trabajo" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Abre una solución o carpeta asociada a un repositorio Git.</li>
+<li>Consulta <strong>Git Changes</strong>.</li>
+<li>Modifica un archivo y revisa sus diferencias.</li>
+<li>Prepara los cambios que corresponda incluir (la interfaz puede ofrecer distintas opciones de staging).</li>
+<li>Introduce el mensaje y confirma el commit.</li>
+<li>Utiliza <strong>Push</strong> para publicar los commits y <strong>Pull</strong> para integrar cambios del remoto.</li>
+<li>Abre <strong>Git Repository</strong> para consultar ramas e historial.</li>
 </ol>
 <div class="admonition tip">
-<p class="admonition-title">Aprender con dos vistas</p>
-<p>Después de cada operación gráfica importante, consulta su equivalente en terminal. Esto ayuda a comprender qué ha ocurrido y facilita trabajar en equipos donde no haya interfaz gráfica.</p>
+<p class="admonition-title">Un mismo concepto, diferentes nombres</p>
+<p><strong>Git Changes</strong>, <strong>Source Control</strong>, <strong>Git Staging</strong> y <strong>Commit</strong> son nombres de vistas o acciones de diferentes herramientas. Lo importante es saber identificar las operaciones Git subyacentes.</p>
 </div>
-<h2 id="135-ramas-y-conflictos">13.5. Ramas y conflictos<a class="headerlink" href="#135-ramas-y-conflictos" title="Permanent link">&para;</a></h2>
-<p>El indicador de rama permite cambiar de rama o crear una nueva. Para fusionar, utiliza los comandos de la paleta (<code>Ctrl+Shift+P</code>) o la terminal. Ante un conflicto, VS Code puede mostrar opciones para aceptar cambios actuales, entrantes o combinar; <strong>revisa siempre el resultado final</strong> y ejecuta pruebas.</p>
-<p>No confundas «aceptar ambos» con resolver correctamente la lógica del programa: puede producir código duplicado o contradictorio.</p>
-<h2 id="136-sincronizacion-con-github">13.6. Sincronización con GitHub<a class="headerlink" href="#136-sincronizacion-con-github" title="Permanent link">&para;</a></h2>
-<p>VS Code puede mostrar acciones de <em>Publish Branch</em>, <em>Pull</em>, <em>Push</em> y <em>Sync Changes</em>. Algunas requieren autenticación con GitHub. <strong>Sync</strong> puede implicar tanto descargar como publicar: comprueba qué hará antes de pulsar.</p>
-<p>Para verificar el remoto:</p>
-<div class="highlight"><pre><span></span><code>git<span class="w"> </span>remote<span class="w"> </span>-v
-git<span class="w"> </span>status<span class="w"> </span>-sb
-</code></pre></div>
-<h2 id="137-extensiones-opcionales">13.7. Extensiones opcionales<a class="headerlink" href="#137-extensiones-opcionales" title="Permanent link">&para;</a></h2>
-<p>Herramientas como GitLens pueden facilitar la visualización de autores e historial, pero no son imprescindibles. Instala solo extensiones autorizadas en el aula y evita depender de funciones que no estarán disponibles en todos los equipos.</p>
-<h2 id="actividades">Actividades<a class="headerlink" href="#actividades" title="Permanent link">&para;</a></h2>
+<h2 id="139-comparativa-de-ide-cual-utilizar">13.9. Comparativa de IDE: ¿cuál utilizar?<a class="headerlink" href="#139-comparativa-de-ide-cual-utilizar" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Entorno</th>
+<th>Tecnologías habituales</th>
+<th>Herramientas Git</th>
+<th>Recomendación didáctica</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>VS Code</td>
+<td>Java, web, Python, múltiples lenguajes</td>
+<td>Source Control integrado</td>
+<td>Muy adecuado para iniciarse y comparar con terminal</td>
+</tr>
+<tr>
+<td>IntelliJ IDEA</td>
+<td>Java, Maven, Spring</td>
+<td>Commit, Log, ramas, conflictos</td>
+<td>Prioritario para proyectos Java</td>
+</tr>
+<tr>
+<td>Apache NetBeans</td>
+<td>Java, Maven</td>
+<td>Integración Git desde Team y menús contextuales</td>
+<td>Útil para alumnado que desarrolla Java en NetBeans</td>
+</tr>
+<tr>
+<td>Eclipse</td>
+<td>Java y proyectos empresariales</td>
+<td>EGit y Git Staging</td>
+<td>Muy útil para comprender la zona de preparación</td>
+</tr>
+<tr>
+<td>Android Studio</td>
+<td>Android, Java, Kotlin</td>
+<td>Integración basada en IntelliJ</td>
+<td>Relevante para desarrollo móvil en DAM</td>
+</tr>
+<tr>
+<td>Visual Studio</td>
+<td>C#, .NET</td>
+<td>Git Changes y Git Repository</td>
+<td>Complementario para proyectos .NET</td>
+</tr>
+</tbody>
+</table>
+<p><strong>No existe un IDE que cambie las reglas de Git.</strong> Las diferencias están en la interfaz, la organización de los menús y algunas automatizaciones. Para comprobar el estado real del repositorio, siempre puedes utilizar la terminal.</p>
+<h2 id="1310-practica-guiada-un-repositorio-dos-entornos">13.10. Práctica guiada: un repositorio, dos entornos<a class="headerlink" href="#1310-practica-guiada-un-repositorio-dos-entornos" title="Permanent link">&para;</a></h2>
+<p><strong>Objetivo:</strong> comprobar que el historial pertenece al repositorio y no al editor.</p>
+<h3 id="parte-a-crear-una-version-desde-terminal">Parte A. Crear una versión desde terminal<a class="headerlink" href="#parte-a-crear-una-version-desde-terminal" title="Permanent link">&para;</a></h3>
 <ol>
-<li>Realiza un commit completo desde el panel gráfico.</li>
-<li>Repite el proceso desde la terminal integrada.</li>
-<li>Crea una rama desde VS Code y comprueba su nombre con <code>git branch --show-current</code>.</li>
-<li>Resuelve un conflicto de práctica y documenta qué opciones elegiste y por qué.</li>
+<li>Abre el repositorio <code>hola-git-ide</code>.</li>
+<li>Comprueba el estado:</li>
 </ol>
-<p><strong>Siguiente:</strong> <a href="../14-java-maven/">Git en proyectos Java y Maven</a>.</p>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>status
+</code></pre></div>
+<ol>
+<li>Modifica <code>README.md</code> añadiendo una descripción del proyecto.</li>
+<li>Registra el cambio:</li>
+</ol>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>add<span class="w"> </span>README.md
+git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">"Documentar objetivo del proyecto"</span>
+</code></pre></div>
+<ol>
+<li>Anota el hash abreviado:</li>
+</ol>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>log<span class="w"> </span>--oneline<span class="w"> </span>-1
+</code></pre></div>
+<h3 id="parte-b-crear-una-version-desde-un-ide">Parte B. Crear una versión desde un IDE<a class="headerlink" href="#parte-b-crear-una-version-desde-un-ide" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Abre <strong>la misma carpeta</strong> con VS Code, IntelliJ IDEA o NetBeans.</li>
+<li>Modifica el saludo de <code>HolaGit.java</code>.</li>
+<li>Revisa las diferencias desde la interfaz gráfica.</li>
+<li>Crea un commit con el mensaje <code>Personalizar saludo desde el IDE</code>.</li>
+<li>Vuelve a la terminal y ejecuta:</li>
+</ol>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>log<span class="w"> </span>--oneline<span class="w"> </span>-3
+git<span class="w"> </span>status
+</code></pre></div>
+<ol>
+<li>Comprueba que aparecen <strong>ambos commits</strong>.</li>
+</ol>
+<h3 id="parte-c-cambiar-de-ide">Parte C. Cambiar de IDE<a class="headerlink" href="#parte-c-cambiar-de-ide" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Cierra el primer IDE y abre la misma carpeta con otro.</li>
+<li>Localiza el historial Git.</li>
+<li>Identifica los commits anteriores.</li>
+<li>Comprueba que no ha sido necesario volver a ejecutar <code>git init</code>.</li>
+</ol>
+<p><strong>Entrega:</strong> capturas del historial desde dos entornos, salida de <code>git log --oneline -3</code> y explicación de por qué los commits son los mismos.</p>
+<h2 id="1311-practica-guiada-crear-y-publicar-una-rama">13.11. Práctica guiada: crear y publicar una rama<a class="headerlink" href="#1311-practica-guiada-crear-y-publicar-una-rama" title="Permanent link">&para;</a></h2>
+<p>Realiza esta práctica en un repositorio de prueba, preferiblemente con un remoto propio de GitHub.</p>
+<ol>
+<li>Comprueba que el directorio de trabajo está limpio:</li>
+</ol>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>status
+</code></pre></div>
+<ol>
+<li>Crea una rama desde el IDE llamada <code>feature/nuevo-saludo</code>.</li>
+<li>Comprueba el resultado en terminal:</li>
+</ol>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>branch<span class="w"> </span>--show-current
+</code></pre></div>
+<ol>
+<li>Modifica <code>HolaGit.java</code> y crea un commit desde el IDE.</li>
+<li>Publica la rama en GitHub desde el IDE o con:</li>
+</ol>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>push<span class="w"> </span>-u<span class="w"> </span>origin<span class="w"> </span>feature/nuevo-saludo
+</code></pre></div>
+<ol>
+<li>En GitHub, comprueba que existe la rama y localiza el commit.</li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Si todavía no tienes remoto</p>
+<p>Primero debes crear un repositorio vacío en GitHub y asociarlo con <code>git remote add origin URL</code>. No ejecutes <code>push</code> si todavía no sabes a qué repositorio estás enviando el código.</p>
+</div>
+<h2 id="1312-practica-guiada-resolver-un-conflicto-desde-el-ide">13.12. Práctica guiada: resolver un conflicto desde el IDE<a class="headerlink" href="#1312-practica-guiada-resolver-un-conflicto-desde-el-ide" title="Permanent link">&para;</a></h2>
+<p><strong>Objetivo:</strong> comprender qué significa que dos ramas modifiquen la misma línea.</p>
+<div class="admonition warning">
+<p class="admonition-title">Trabaja en un repositorio de prueba</p>
+<p>No hagas este ejercicio sobre tu Proyecto Intermodular ni sobre un repositorio compartido que esté utilizando tu equipo.</p>
+</div>
+<p>Partiendo de una rama <code>main</code> limpia:</p>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>switch<span class="w"> </span>main
+git<span class="w"> </span>switch<span class="w"> </span>-c<span class="w"> </span>practica/conflicto
+</code></pre></div>
+<p>Modifica la línea del saludo a <code>Hola desde la rama de práctica</code>, guarda y registra:</p>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>add<span class="w"> </span>HolaGit.java
+git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">"Cambiar saludo en rama de práctica"</span>
+git<span class="w"> </span>switch<span class="w"> </span>main
+</code></pre></div>
+<p>Ahora modifica <strong>esa misma línea</strong> a <code>Hola desde main</code> y crea otro commit:</p>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>add<span class="w"> </span>HolaGit.java
+git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">"Cambiar saludo en main"</span>
+</code></pre></div>
+<p>Intenta fusionar:</p>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>merge<span class="w"> </span>practica/conflicto
+</code></pre></div>
+<p>Es probable que Git detecte un conflicto de contenido. Abre el proyecto en tu IDE, localiza el archivo afectado y utiliza su herramienta de comparación para escribir una versión final coherente, por ejemplo:</p>
+<div class="highlight"><pre><span></span><code><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="s">"Hola desde un proyecto con Git"</span><span class="p">);</span>
+</code></pre></div>
+<p>Después de guardar, verifica que no quedan marcadores <code>&lt;&lt;&lt;&lt;&lt;&lt;&lt;</code>, <code>=======</code> ni <code>&gt;&gt;&gt;&gt;&gt;&gt;&gt;</code>, comprueba que el programa funciona y termina la fusión:</p>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>add<span class="w"> </span>HolaGit.java
+git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">"Resolver conflicto del saludo"</span>
+git<span class="w"> </span>status
+</code></pre></div>
+<div class="admonition tip">
+<p class="admonition-title">Si el IDE completa el commit de fusión</p>
+<p>Algunos entornos ofrecen finalizar la fusión desde la propia interfaz. En ese caso <strong>no repitas</strong> el commit desde terminal; comprueba primero el resultado con <code>git status</code> y <code>git log --oneline --graph -5</code>.</p>
+</div>
+<h2 id="1313-problemas-frecuentes">13.13. Problemas frecuentes<a class="headerlink" href="#1313-problemas-frecuentes" title="Permanent link">&para;</a></h2>
+<details class="question">
+<summary>El IDE no detecta el repositorio</summary>
+<p>Comprueba que has abierto la carpeta correcta y que existe <code>.git/</code> en la raíz del repositorio. Ejecuta <code>git rev-parse --show-toplevel</code> desde la terminal. No ejecutes <code>git init</code> de nuevo sin comprobarlo.</p>
+</details>
+<details class="question">
+<summary>Puedo hacer commit, pero no push</summary>
+<p>Un commit es local; para hacer push necesitas un remoto configurado, permisos y autenticación. Consulta <code>git remote -v</code> y <code>git status -sb</code>. Si GitHub rechaza la subida por <code>non-fast-forward</code>, no utilices <code>--force</code> como primera solución: revisa las diferencias e integra los cambios remotos.</p>
+</details>
+<details class="question">
+<summary>No aparecen mis archivos modificados</summary>
+<p>Guarda los archivos y revisa <code>git status</code>. Comprueba si el archivo está ignorado por <code>.gitignore</code> con <code>git check-ignore -v ruta/al/archivo</code> y si realmente estás dentro del repositorio correcto.</p>
+</details>
+<details class="question">
+<summary>El IDE ofrece 'Commit and Push'. ¿Es lo mismo que Commit?</summary>
+<p>No. La primera opción combina el registro local con una publicación remota. En las primeras prácticas es preferible hacer cada operación por separado para observar sus efectos.</p>
+</details>
+<details class="question">
+<summary>¿Puedo abrir el mismo proyecto con dos IDE?</summary>
+<p>Sí, aunque conviene cerrar procesos de compilación o sincronización y evitar editar simultáneamente los mismos archivos. Cada IDE puede generar metadatos propios; revisa el <code>.gitignore</code> para no publicar archivos locales innecesarios.</p>
+</details>
+<details class="question">
+<summary>Aparece un conflicto y no sé qué versión aceptar</summary>
+<p>No elijas una opción automáticamente. Compara ambos cambios, identifica qué comportamiento debe conservarse y construye el resultado final. Después compila, ejecuta pruebas y confirma que el conflicto ha quedado resuelto.</p>
+</details>
+<h2 id="1314-autoevaluacion">13.14. Autoevaluación<a class="headerlink" href="#1314-autoevaluacion" title="Permanent link">&para;</a></h2>
+<ol>
+<li>¿Dónde se almacena el historial Git: en el IDE o en el repositorio?</li>
+<li>¿Qué diferencia hay entre preparar cambios y crear un commit?</li>
+<li>¿Por qué <code>Commit and Push</code> no equivale a <code>Commit</code>?</li>
+<li>¿Qué herramienta de Eclipse muestra la zona de preparación?</li>
+<li>¿Qué IDE resulta especialmente relevante para Android?</li>
+<li>¿Por qué no debemos subir claves de firma ni credenciales a GitHub?</li>
+<li>¿Qué comprobarías si un IDE no detecta Git en tu proyecto?</li>
+<li>¿Cómo demostrarías que dos IDE utilizan el mismo historial?</li>
+</ol>
+<details class="success">
+<summary>Orientaciones de respuesta</summary>
+<ol>
+<li>En el repositorio, principalmente dentro de <code>.git/</code>.</li>
+<li>Preparar selecciona cambios; confirmar crea un commit.</li>
+<li>Porque <code>push</code> publica commits en el remoto y puede requerir autenticación o integración previa.</li>
+<li>La vista <strong>Git Staging</strong> de EGit.</li>
+<li>Android Studio.</li>
+<li>Porque podrían quedar expuestas y permanecer en el historial.</li>
+<li>La ruta de la carpeta abierta, la existencia de <code>.git/</code> y la instalación de Git.</li>
+<li>Abriendo la misma carpeta en ambos y comparando los hashes de <code>git log</code>.</li>
+</ol>
+</details>
+<h2 id="1315-recursos-oficiales">13.15. Recursos oficiales<a class="headerlink" href="#1315-recursos-oficiales" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://git-scm.com/docs">Git: documentación oficial</a></li>
+<li><a href="https://code.visualstudio.com/docs/sourcecontrol/overview">Visual Studio Code: control de versiones</a></li>
+<li><a href="https://www.jetbrains.com/help/idea/using-git-integration.html">IntelliJ IDEA: integración con Git</a></li>
+<li><a href="https://netbeans.apache.org/front/main/">Apache NetBeans: documentación</a></li>
+<li><a href="https://wiki.eclipse.org/EGit/User_Guide">Eclipse EGit: guía de usuario</a></li>
+<li><a href="https://developer.android.com/studio/intro">Android Studio: control de versiones</a></li>
+<li><a href="https://learn.microsoft.com/es-es/visualstudio/version-control/git-with-visual-studio">Visual Studio: Git y GitHub</a></li>
+</ul>
+<hr />
+<p><strong>Siguiente capítulo:</strong> <a href="../14-java-maven/">Git aplicado a proyectos Java y Maven</a>.</p>
 
 
 
