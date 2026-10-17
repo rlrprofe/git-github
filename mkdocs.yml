@@ -1,0 +1,75 @@
+site_name: Git y GitHub · Guía práctica de control de versiones
+site_description: Manual práctico de Git y GitHub para estudiantes de desarrollo de software
+site_author: Ruth Lospitao Ruiz
+site_url: https://rlrprofe.github.io/git-github/
+repo_url: https://github.com/rlrprofe/git-github
+repo_name: rlrprofe/git-github
+
+theme:
+  name: material
+  language: es
+  features:
+    - navigation.top
+    - navigation.indexes
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.tabs.link
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Cambiar a modo oscuro
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Cambiar a modo claro
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - tables
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+      toc_depth: 4
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+nav:
+  - Inicio: index.md
+  - "1. Introducción al control de versiones": capitulos/01-introduccion.md
+  - "2. Instalación y configuración": capitulos/02-instalacion.md
+  - "3. Fundamentos de Git": capitulos/03-fundamentos.md
+  - "4. Primer repositorio": capitulos/04-primer-repositorio.md
+  - "5. Seguimiento de cambios e historial": capitulos/05-seguimiento.md
+  - "6. GitHub y repositorios remotos": capitulos/06-remotos.md
+  - "7. Autenticación y seguridad": capitulos/07-autenticacion.md
+  - "8. Ramas": capitulos/08-ramas.md
+  - "9. Fusiones y conflictos": capitulos/09-fusiones.md
+  - "10. Trabajo colaborativo": capitulos/10-colaboracion.md
+  - "11. Deshacer y recuperar cambios": capitulos/11-recuperacion.md
+  - "12. Buenas prácticas": capitulos/12-buenas-practicas.md
+  - "13. Git desde Visual Studio Code": capitulos/13-vscode.md
+  - "14. Git en proyectos Java y Maven": capitulos/14-java-maven.md
+  - "15. Flujos de trabajo profesionales": capitulos/15-flujos.md
+  - "16. Problemas frecuentes": capitulos/16-problemas.md
+  - "17. Guía rápida de comandos": capitulos/17-comandos.md
+  - "18. Proyecto práctico integrador": capitulos/18-proyecto.md
