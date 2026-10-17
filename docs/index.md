@@ -22,5 +22,5 @@ Aprenderás a gestionar versiones de tus proyectos, documentar cambios, trabajar
 
 [:material-github: Consultar los comandos](capitulos/17-comandos.md){ .md-button }
 
-!!! note "Material en elaboración"
-    La estructura del sitio ya está preparada. Los contenidos detallados y las actividades se incorporarán progresivamente.
+!!! tip "Aprendizaje paso a paso"
+    Cada capítulo contiene explicaciones, ejemplos de terminal, recomendaciones y actividades. Practica en un repositorio de prueba antes de aplicar comandos que modifican el historial de tus proyectos.
